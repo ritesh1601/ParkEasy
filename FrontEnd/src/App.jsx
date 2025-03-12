@@ -1,4 +1,4 @@
-import {Home} from './components/index';
+import {BookingForm, Home, MapControls, PaymentForm, SpotDetailsModal, SpotMarker} from './components/index';
 
 import {
   createBrowserRouter,
