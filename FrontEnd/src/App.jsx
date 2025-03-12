@@ -1,10 +1,4 @@
-import './App.css'
-import * as React from "react";
-
-import {
-  Home,
-} from './Components/index'
-
+import {Home} from './components/index';
 
 import {
   createBrowserRouter,
@@ -14,18 +8,16 @@ import {
 const router = createBrowserRouter([
   {
     path : "/",
-    element:<div>
+    element : <div>
       <Home/>
     </div>
   },
 ]);
 
-function App() {
+export default function App() {
   return (
-    <div className='App'>
+    <div>
       <RouterProvider router={router} />
     </div>
   )
 }
-
-export default App
